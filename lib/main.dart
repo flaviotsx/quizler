@@ -43,8 +43,9 @@ class _QuizPageState extends State<QuizPage> {
           desc: "You have finished the quiz!!",
           buttons: [
             DialogButton(
+              color: Colors.black,
               child: Text(
-                "Topz!!",
+                "Okay",
                 style: TextStyle(color: Colors.white, fontSize: 20),
               ),
               onPressed: () => Navigator.pop(context),
